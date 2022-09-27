@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/logo.png">
+    <title>Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header class="header">
+    <div class="wrapper">
+        <div class="header-logo">
+            <img src="image/logo.png" class="header-logo__image">
+             <p class="header-logo__text">Travel Portal</p>
+        </div>
+        <nav class="header-nav">
+            <ul class="nav">
+                <li class="nav-item"><a href="#">How It Works</a></li>
+                <li class="nav-item"><a href="#">Plan Your Trip</a></li>
+                <li class="nav-item"><a href="#">Destinations</a></li>
+                <li class="nav-item"><a href="#">Travel Stories</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <button type="button" class="header-button">Login</button>
+    </div>
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#" class="header__link">How It Works</a></li>
+            <li><a href="#" class="header__link">Plan Your Trip</a></li>
+            <li><a href="#" class="header__link">Destinations</a></li>
+            <li><a href="#" class="header__link">Travel Stories</a></li>
+            <li><a href="#" class="header__link">Account</a></li>
+            <li><a href="#" class="header__link">Social Media</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="modal-close">&times;</div>
+            <h2 class="modal-title">Create account</h2>
+            <button type="button" class="modal-button"></button>
+        </div>
+
+        <div class="modal-body">
+            <form class="modal-form">
+                <div class="modal-button">
+                    <label for="floatingInput" class="form-control__text">Email address</label>
+                    <input type="email" class="form-control" id="floatingInput">
+                </div>
+                <div class="modal-button">
+                    <label for="floatingPassword" class="form-control__text">Password</label>
+                    <input type="password" class="form-control" id="floatingPassword">
+                </div>
+                <div class="modal-button">
+                    <button class="form-control form-control--submit" type="submit">Sign up</button>
+                </div>
+                <hr class="modal-line">
+                <p class="modal-subtitle">Already have an account? <button class="modal-login--link" type="button">Log in</button></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal2">
+    <div class="modal-account">
+        <div class="modal-header">
+            <div class="modal-close2">&times;</div>
+            <h2 class="modal-title">Log in to your account</h2>
+            <button type="button" class="modal-button"></button>
+        </div>
+
+        <div class="modal-body">
+            <form class="modal-form">
+                <div class="account__button">
+                    <button type="button" class="modal-account__button modal-account__button--facebook">Sign in with Facebook</button>
+                    <button type="button" class="modal-account__button">Sign in with Google</button>
+                </div>
+                <hr class="modal-line">
+                <div class="modal-button">
+                    <label for="emailAddress" class="form-control__text">Email address</label>
+                    <input type="email" class="form-control" id="emailAddress">
+                </div>
+                <div class="modal-button">
+                    <label for="passwordAccont" class="form-control__text">Password</label>
+                    <input type="password" class="form-control" id="passwordAccont">
+                </div>
+                <div class="modal-button">
+                    <button class="form-control form-control--submit" type="submit">Sign In</button>
+                </div>
+                <hr class="modal-line">
+                <p class="modal-subtitle">Don’t have an account?<button type="button" class="modal-login--link modal-account--link">Register</button></p>
+            </form>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="preview">
+        <div class="wrapper">
+            <div class="preview-wrapper">
+                <h1 class="preview-title">Explore the beauty of the World</h1>
+                <p class="preview-text">Receive personalized recommendations for countries, hotels, activities and more</p>
+                <form class="preview-form wrapper">
+                    <p class="preview-form__text">What would you like to do?</p>
+                    <button type="button" class="preview-form__button">Start Planning</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+           <div class="steps-wrapper">
+               <h2 class="steps-title">3 STEPS TO THE PERFECT TRIP</h2>
+               <div class="steps-container">
+                   <div class="steps-item">
+                       <img src="./image/img1.png" alt="icon" class="steps-image">
+                       <p class="steps-disc">Tell us what you want to do</p>
+                   </div>
+                   <div class="steps-item">
+                       <img src="./image/img2.png" alt="icon" class="steps-image">
+                       <p class="steps-disc">Share us preferable dates </p>
+                   </div>
+                   <div class="steps-item">
+                       <img src="./image/img3.png" alt="icon" class="steps-image">
+                       <p class="steps-disc">We will give you recommendations</p>
+                   </div>
+               </div>
+        </div>
+    </section>
+    <section class="destinations">
+        <div class="destinations-wrapper">
+            <h2 class="destinations-title">POPULAR DESTINATIONS</h2>
+            <div class="destinations-container">
+                <div class="slider-container">
+                    <img src="./image/slider/sl1.png" alt="">
+                    <img src="./image/slider/sl2.png" alt="">
+                    <img src="./image/slider/sl3.png" alt="">
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="slider-prev" type="button"></button>
+                <button class="slider-next" type="button"></button>
+            </div>
+            <button type="button" class="destinations-button">Find More</button>
+        </div>
+    </section>
+    <section class="stories">
+        <h2 class="stories-title">TRAVEL STORIES</h2>
+        <div class="stories-container">
+            <div class="stories-dg">
+                <div class="stories-wrapper">
+                    <div class="stories-item">
+                        <img src="./image/stori1.png" alt="stories" class="stories-img">
+                        <div class="stories-disc">
+                            <h3 class="stories-disc__item">10 Photos of Attractive Thailand</h3>
+                            <p class="stories-disc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                        </div>
+                    </div>
+                    <div class="stories-item">
+                        <img src="./image/stori2.png" alt="stories" class="stories-img">
+                        <div class="stories-disc">
+                            <h3 class="stories-disc__item">Canyonlands National Park, Utah</h3>
+                            <p class="stories-disc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                        </div>
+                    </div>
+                    <div class="stories-item">
+                        <img src="./image/stori3.png" alt="stories" class="stories-img">
+                        <div class="stories-disc">
+                            <h3 class="stories-disc__item">I left my heart in the Mountains!</h3>
+                            <p class="stories-disc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                        </div>
+                    </div>
+                    <div class="stories-item">
+                        <img src="./image/stori4.png" alt="stories" class="stories-img">
+                        <div class="stories-disc">
+                            <h3 class="stories-disc__item">The Longest journey in my life!</h3>
+                            <p class="stories-disc__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
+                        </div>
+                    </div>
+                    <button type="button" class="destinations-button">See More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer-wrapper">
+        <p>Minsk</p>
+        <ul class="footer__social__icons">
+            <li>
+                <a href="https://www.instagram.com">
+                    <img src="./image/instagram.svg" alt="Instagram logo">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com">
+                    <img src="./image/youtube.svg" alt="Youtube logo">
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com">
+                    <img src="./image/twitter.svg" alt="Twitter logo">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
